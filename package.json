@@ -1,0 +1,25 @@
+{
+  "name": "webuyg2023",
+  "version": "1.0.0",
+  "description": "sunucu tabanlı dersi uygulaması",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izelmalkoc/webUyg2023.git"
+  },
+  "keywords": [
+    "izel"
+  ],
+  "author": "izel malkoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izelmalkoc/webUyg2023/issues"
+  },
+  "homepage": "https://github.com/izelmalkoc/webUyg2023#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
