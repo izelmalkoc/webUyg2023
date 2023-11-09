@@ -1,8 +1,13 @@
 const express = require('express')
+const db_connect=require('./db/mysql_connect')
+require("dotenv/config")
 const app = express()
 
-app.get('/app', function (req, res) {
-  res.send('Hello World')
+app.get('/', function (req, res) {
+  res.send('anasayfa')
 })
+app.get('/app', function (req, res) {
+  res.send('app sayfası')
+ })
 
-app.listen(5000)
+app.listen(process.env.PORT)
