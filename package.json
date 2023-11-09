@@ -4,7 +4,7 @@
   "description": "sunucu tabanlı dersi uygulaması",
   "main": "app.js",
   "scripts": {
-    "devStart": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",

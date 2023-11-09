@@ -2,3 +2,8 @@ npm: note package manager
 npm init: nodejs uygsını başlatma kurma anlamına gelir
 require=import
 const=variable
+
+sıralama:
+package json kur
+express kur
+app js
